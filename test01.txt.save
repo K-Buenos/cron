@@ -1,0 +1,291 @@
+    1 0.000000000 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 192.168.43.142? Tell 
+    192.168.43.1 2 1.362967887 192.168.43.142 → 192.168.43.255 NBNS 92 Name query NB 
+    WPAD<00> 3 1.363954989 192.168.43.142 → 224.0.0.251 MDNS 70 Standard query 0x0000 A 
+    wpad.local, "QM" question 4 1.365024363 fe80::64e5:de06:12c1:bea4 → ff02::fb MDNS 90 
+    Standard query 0x0000 A wpad.local, "QM" question 5 1.365846124 
+    fe80::64e5:de06:12c1:bea4 → ff02::1:3 LLMNR 84 Standard query 0xd6ee A wpad 6 
+    1.366104388 192.168.43.142 → 224.0.0.252 LLMNR 64 Standard query 0xd6ee A wpad 7 
+    1.367558815 192.168.43.142 → 224.0.0.251 MDNS 70 Standard query 0x0000 A wpad.local, 
+    "QM" question 8 1.368015039 fe80::64e5:de06:12c1:bea4 → ff02::fb MDNS 90 Standard query 
+    0x0000 A wpad.local, "QM" question 9 1.777241648 fe80::64e5:de06:12c1:bea4 → ff02::1:3 
+    LLMNR 84 Standard query 0xd6ee A wpad
+   10 1.777645247 192.168.43.142 → 224.0.0.252 LLMNR 64 Standard query 0xd6ee A wpad 11 
+   2.112678467 192.168.43.142 → 192.168.43.255 NBNS 92 Name query NB WPAD<00> 12 2.364247942 
+   192.168.43.142 → 224.0.0.251 MDNS 70 Standard query 0x0000 A wpad.local, "QM" question 13 
+   2.364970186 fe80::64e5:de06:12c1:bea4 → ff02::fb MDNS 90 Standard query 0x0000 A 
+   wpad.local, "QM" question 14 2.367795327 192.168.43.142 → 224.0.0.251 MDNS 70 Standard 
+   query 0x0000 A wpad.local, "QM" question 15 2.368770159 fe80::64e5:de06:12c1:bea4 → 
+   ff02::fb MDNS 90 Standard query 0x0000 A wpad.local, "QM" question 16 2.863316522 
+   192.168.43.142 → 192.168.43.255 NBNS 92 Name query NB WPAD<00> 17 12.709180296 
+   192.168.43.170 → 198.97.190.53 DNS 76 Standard query 0x4696 A local OPT 18 12.758961308 
+   198.97.190.53 → 192.168.43.170 DNS 1068 Standard query response 0x4696 No such name A 
+   local NSEC locker RRSIG NSEC aaa RRSIG SOA a.root-servers.net RRSIG OPT 19 17.759568730 
+   7e:89:56:17:89:30 → Broadcast ARP 60 Who has 192.168.43.170? Tell 192.168.43.1 20 
+   17.759591580 PcsCompu_c5:ec:00 → 7e:89:56:17:89:30 ARP 42 192.168.43.170 is at 
+   08:00:27:c5:ec:00 21 26.959985609 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 
+   192.168.43.142? Tell 192.168.43.1 22 34.081561099 192.168.43.170 → 104.22.14.144 TCP 74 
+   42514 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1166511396 TSecr=0 
+   WS=128 23 34.143474562 104.22.14.144 → 192.168.43.170 TCP 66 443 → 42514 [SYN, ACK] Seq=0 
+   Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM=1 WS=1024 24 34.143596157 192.168.43.170 → 
+   104.22.14.144 TCP 54 42514 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 25 34.143674359 
+   192.168.43.170 → 104.22.14.144 TLSv1 680 Client Hello 26 34.196272867 104.22.14.144 → 
+   192.168.43.170 TCP 60 443 → 42514 [ACK] Seq=1 Ack=627 Win=67584 Len=0 27 34.197702663 
+   104.22.14.144 → 192.168.43.170 TLSv1.3 273 Server Hello, Change Cipher Spec, Application 
+   Data 28 34.197761595 192.168.43.170 → 104.22.14.144 TCP 54 42514 → 443 [ACK] Seq=627 
+   Ack=220 Win=64128 Len=0 29 34.198167878 192.168.43.170 → 104.22.14.144 TLSv1.3 134 Change 
+   Cipher Spec, Application Data 30 34.237016845 104.22.14.144 → 192.168.43.170 TCP 60 443 → 
+   42514 [ACK] Seq=220 Ack=707 Win=67584 Len=0 31 34.237116288 192.168.43.170 → 
+   104.22.14.144 TLSv1.3 315 Application Data 32 34.278221507 104.22.14.144 → 192.168.43.170 
+   TCP 60 443 → 42514 [ACK] Seq=220 Ack=968 Win=68608 Len=0 33 34.309742063 104.22.14.144 → 
+   192.168.43.170 TLSv1.3 1160 Application Data, Application Data 34 34.310301452 
+   104.22.14.144 → 192.168.43.170 TCP 60 443 → 42514 [FIN, ACK] Seq=1326 Ack=968 Win=68608 
+   Len=0 35 34.310423796 192.168.43.170 → 104.22.14.144 TCP 54 42514 → 443 [ACK] Seq=968 
+   Ack=1327 Win=64128 Len=0 36 34.311308310 192.168.43.170 → 104.22.14.144 TLSv1.3 78 
+   Application Data 37 34.311708553 192.168.43.170 → 104.22.14.144 TCP 54 42514 → 443 [FIN, 
+   ACK] Seq=992 Ack=1327 Win=64128 Len=0 38 34.354208934 104.22.14.144 → 192.168.43.170 TCP 
+   60 443 → 42514 [ACK] Seq=1327 Ack=992 Win=68608 Len=0 39 34.356065415 104.22.14.144 → 
+   192.168.43.170 TCP 60 443 → 42514 [ACK] Seq=1327 Ack=993 Win=68608 Len=0 40 35.871807422 
+   192.168.43.170 → 205.251.196.9 DNS 88 Standard query 0x8afc AAAA stackoverflow.com OPT 41 
+   35.915319378 205.251.196.9 → 192.168.43.170 DNS 170 Standard query response 0x8afc AAAA 
+   stackoverflow.com SOA ns-1033.awsdns-01.org OPT 42 36.028674824 192.168.43.170 → 
+   192.168.43.1 DNS 72 Standard query 0xdd64 AAAA d3df8d986386 43 36.035102165 192.168.43.1 
+   → 192.168.43.170 DNS 72 Standard query response 0xdd64 No such name AAAA d3df8d986386 44 
+   36.052528618 192.168.43.170 → 192.168.43.1 DNS 72 Standard query 0x0722 AAAA d3df8d986386 
+   45 36.057049647 192.168.43.1 → 192.168.43.170 DNS 72 Standard query response 0x0722 No 
+   such name AAAA d3df8d986386 46 36.681593298 192.168.43.170 → 192.43.172.30 DNS 74 
+   Standard query 0xa58f A com OPT 47 36.752697541 192.43.172.30 → 192.168.43.170 DNS 617 
+   Standard query response 0xa58f A com SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT 48 
+   36.753149866 192.168.43.170 → 192.41.162.30 DNS 74 Standard query 0x8e88 A com OPT 49 
+   36.835986791 192.41.162.30 → 192.168.43.170 DNS 617 Standard query response 0x8e88 A com 
+   SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT 50 48.492907187 192.168.43.170 → 
+   23.235.36.32 DNS 88 Standard query 0x660a A global.fastly.net OPT 51 48.493165486 
+   192.168.43.170 → 23.235.36.32 DNS 85 Standard query 0xbcb1 AAAA ns2.fastly.net OPT 52 
+   48.493286350 192.168.43.170 → 104.156.84.32 DNS 85 Standard query 0xb3ea AAAA 
+   ns4.fastly.net OPT 53 48.493591010 192.168.43.170 → 23.235.36.32 DNS 85 Standard query 
+   0xbc15 AAAA ns1.fastly.net OPT 54 48.493789776 192.168.43.170 → 23.235.32.32 DNS 85 
+   Standard query 0x4451 AAAA ns3.fastly.net OPT 55 48.494461488 192.168.43.170 → 
+   23.235.32.32 DNS 88 Standard query 0x65fd A global.fastly.net OPT 56 48.533603086 
+   23.235.36.32 → 192.168.43.170 DNS 176 Standard query response 0x660a A global.fastly.net 
+   A 151.101.120.179 NS ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net 
+   OPT 57 48.533889697 192.168.43.170 → 104.156.84.32 DNS 95 Standard query 0x85f2 A 
+   shared.global.fastly.net OPT 58 48.535263621 23.235.32.32 → 192.168.43.170 DNS 176 
+   Standard query response 0x65fd A global.fastly.net A 151.101.120.179 NS ns1.fastly.net NS 
+   ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 59 48.535288182 23.235.36.32 → 
+   192.168.43.170 DNS 146 Standard query response 0xbcb1 AAAA ns2.fastly.net SOA 
+   ns1.fastly.net OPT 60 48.535441098 192.168.43.170 → 104.156.80.32 DNS 95 Standard query 
+   0x95b4 A shared.global.fastly.net OPT 61 48.540705902 104.156.84.32 → 192.168.43.170 DNS 
+   146 Standard query response 0xb3ea AAAA ns4.fastly.net SOA ns1.fastly.net OPT 62 
+   48.540745743 23.235.32.32 → 192.168.43.170 DNS 146 Standard query response 0x4451 AAAA 
+   ns3.fastly.net SOA ns1.fastly.net OPT 63 48.541232730 23.235.36.32 → 192.168.43.170 DNS 
+   142 Standard query response 0xbc15 AAAA ns1.fastly.net SOA ns1.fastly.net OPT 64 
+   48.588332167 104.156.84.32 → 192.168.43.170 DNS 156 Standard query response 0x85f2 A 
+   shared.global.fastly.net SOA ns1.fastly.net OPT 65 48.588583855 192.168.43.170 → 
+   23.235.36.32 DNS 98 Standard query 0xd272 A p2.shared.global.fastly.net OPT 66 
+   48.588771031 104.156.80.32 → 192.168.43.170 DNS 156 Standard query response 0x95b4 A 
+   shared.global.fastly.net SOA ns1.fastly.net OPT 67 48.588888486 192.168.43.170 → 
+   104.156.80.32 DNS 98 Standard query 0x864a A p2.shared.global.fastly.net OPT 68 
+   48.629304572 23.235.36.32 → 192.168.43.170 DNS 186 Standard query response 0xd272 A 
+   p2.shared.global.fastly.net A 151.101.122.49 NS ns1.fastly.net NS ns2.fastly.net NS 
+   ns3.fastly.net NS ns4.fastly.net OPT 69 48.668610481 104.156.80.32 → 192.168.43.170 DNS 
+   186 Standard query response 0x864a A p2.shared.global.fastly.net A 151.101.122.49 NS 
+   ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 70 48.668864579 
+   192.168.43.170 → 23.235.36.32 DNS 98 Standard query 0xa0cc AAAA 
+   p2.shared.global.fastly.net OPT 71 48.706496153 23.235.36.32 → 192.168.43.170 DNS 159 
+   Standard query response 0xa0cc AAAA p2.shared.global.fastly.net SOA ns1.fastly.net OPT 72 
+   48.707019571 192.168.43.170 → 151.101.122.49 TCP 74 49306 → 443 [SYN] Seq=0 Win=64240 
+   Len=0 MSS=1460 SACK_PERM=1 TSval=351883389 TSecr=0 WS=128 73 48.753798087 151.101.122.49 
+   → 192.168.43.170 TCP 74 443 → 49306 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 
+   SACK_PERM=1 TSval=2544683574 TSecr=351883389 WS=512 74 48.753919222 192.168.43.170 → 
+   151.101.122.49 TCP 66 49306 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=351883436 
+   TSecr=2544683574 75 48.754156499 192.168.43.170 → 151.101.122.49 TLSv1 625 Client Hello 
+   76 48.802522589 151.101.122.49 → 192.168.43.170 TCP 66 443 → 49306 [ACK] Seq=1 Ack=560 
+   Win=67072 Len=0 TSval=2544683622 TSecr=351883436 77 48.808500195 151.101.122.49 → 
+   192.168.43.170 TLSv1.2 207 Server Hello, Change Cipher Spec, Encrypted Handshake Message 
+   78 48.808564848 192.168.43.170 → 151.101.122.49 TCP 66 49306 → 443 [ACK] Seq=560 Ack=142 
+   Win=64128 Len=0 TSval=351883491 TSecr=2544683624 79 48.808816266 192.168.43.170 → 
+   151.101.122.49 TLSv1.2 117 Change Cipher Spec, Encrypted Handshake Message 80 
+   48.909447753 151.101.122.49 → 192.168.43.170 TCP 66 443 → 49306 [ACK] Seq=142 Ack=611 
+   Win=67072 Len=0 TSval=2544683726 TSecr=351883491 81 48.909548787 192.168.43.170 → 
+   151.101.122.49 TLSv1.2 308 Application Data 82 48.974637469 151.101.122.49 → 
+   192.168.43.170 TCP 66 443 → 49306 [ACK] Seq=142 Ack=853 Win=68096 Len=0 TSval=2544683782 
+   TSecr=351883592 83 48.975242179 151.101.122.49 → 192.168.43.170 TLSv1.2 363 Application 
+   Data 84 48.975736155 192.168.43.170 → 151.101.122.49 TLSv1.2 97 Encrypted Alert 85 
+   48.976165679 151.101.122.49 → 192.168.43.170 TLSv1.2 97 Encrypted Alert 86 48.976183610 
+   151.101.122.49 → 192.168.43.170 TCP 66 443 → 49306 [FIN, ACK] Seq=470 Ack=853 Win=68096 
+   Len=0 TSval=2544683784 TSecr=351883592 87 48.976281874 192.168.43.170 → 151.101.122.49 
+   TCP 66 49306 → 443 [FIN, ACK] Seq=884 Ack=471 Win=64128 Len=0 TSval=351883658 
+   TSecr=2544683784 88 49.028698876 151.101.122.49 → 192.168.43.170 TCP 60 443 → 49306 [RST] 
+   Seq=471 Win=0 Len=0 89 53.120947310 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 
+   192.168.43.142? Tell 192.168.43.1 90 53.540078252 7e:89:56:17:89:30 → Broadcast ARP 60 
+   Who has 192.168.43.170? Tell 192.168.43.1 91 53.540100703 PcsCompu_c5:ec:00 → 
+   7e:89:56:17:89:30 ARP 42 192.168.43.170 is at 08:00:27:c5:ec:00 92 66.559716497 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 93 67.561920598 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 94 68.564118478 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 95 69.564441498 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 96 69.973555009 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 97 70.975787945 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 98 71.976062873 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1 99 72.976894155 
+   192.168.43.142 → 239.255.255.250 SSDP 215 M-SEARCH * HTTP/1.1
+  100 80.645824837 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 192.168.43.142? Tell 
+  192.168.43.1 101 95.004607061 192.168.43.170 → 104.156.80.32 DNS 88 Standard query 0xf7ed 
+  A global.fastly.net OPT 102 95.004723864 192.168.43.170 → 23.235.36.32 DNS 85 Standard 
+  query 0x106f AAAA ns3.fastly.net OPT 103 95.004800598 192.168.43.170 → 104.156.80.32 DNS 
+  85 Standard query 0xb004 AAAA ns4.fastly.net OPT 104 95.004872970 192.168.43.170 → 
+  104.156.80.32 DNS 85 Standard query 0xa432 AAAA ns2.fastly.net OPT 105 95.004943003 
+  192.168.43.170 → 23.235.36.32 DNS 85 Standard query 0x059e AAAA ns1.fastly.net OPT 106 
+  95.005690888 192.168.43.170 → 104.156.84.32 DNS 88 Standard query 0xe049 A 
+  global.fastly.net OPT 107 95.038867687 104.156.80.32 → 192.168.43.170 DNS 176 Standard 
+  query response 0xf7ed A global.fastly.net A 151.101.120.179 NS ns1.fastly.net NS 
+  ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 108 95.039154347 192.168.43.170 → 
+  104.156.84.32 DNS 95 Standard query 0x25d6 A shared.global.fastly.net OPT 109 95.039719055 
+  23.235.36.32 → 192.168.43.170 DNS 142 Standard query response 0x059e AAAA ns1.fastly.net 
+  SOA ns1.fastly.net OPT 110 95.040654878 104.156.80.32 → 192.168.43.170 DNS 146 Standard 
+  query response 0xa432 AAAA ns2.fastly.net SOA ns1.fastly.net OPT 111 95.040697919 
+  104.156.84.32 → 192.168.43.170 DNS 176 Standard query response 0xe049 A global.fastly.net 
+  A 151.101.120.179 NS ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net 
+  OPT 112 95.044735984 23.235.36.32 → 192.168.43.170 DNS 146 Standard query response 0x106f 
+  AAAA ns3.fastly.net SOA ns1.fastly.net OPT 113 95.045694007 104.156.80.32 → 192.168.43.170 
+  DNS 146 Standard query response 0xb004 AAAA ns4.fastly.net SOA ns1.fastly.net OPT 114 
+  95.074918869 104.156.84.32 → 192.168.43.170 DNS 156 Standard query response 0x25d6 A 
+  shared.global.fastly.net SOA ns1.fastly.net OPT 115 95.075255660 192.168.43.170 → 
+  23.235.32.32 DNS 98 Standard query 0x60d1 A p2.shared.global.fastly.net OPT 116 
+  95.075340822 192.168.43.170 → 104.156.80.32 DNS 98 Standard query 0x904a A 
+  p2.shared.global.fastly.net OPT 117 95.108913250 23.235.32.32 → 192.168.43.170 DNS 186 
+  Standard query response 0x60d1 A p2.shared.global.fastly.net A 151.101.122.49 NS 
+  ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 118 95.109167939 
+  192.168.43.170 → 23.235.32.32 DNS 98 Standard query 0x4979 AAAA 
+  p2.shared.global.fastly.net OPT 119 95.117091485 104.156.80.32 → 192.168.43.170 DNS 186 
+  Standard query response 0x904a A p2.shared.global.fastly.net A 151.101.122.49 NS 
+  ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 120 95.150562429 
+  23.235.32.32 → 192.168.43.170 DNS 159 Standard query response 0x4979 AAAA 
+  p2.shared.global.fastly.net SOA ns1.fastly.net OPT 121 95.151133778 192.168.43.170 → 
+  151.101.122.49 TCP 74 49416 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 
+  TSval=351929832 TSecr=0 WS=128 122 95.190400158 151.101.122.49 → 192.168.43.170 TCP 74 443 
+  → 49416 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM=1 TSval=3596798934 
+  TSecr=351929832 WS=512 123 95.190541422 192.168.43.170 → 151.101.122.49 TCP 66 49416 → 443 
+  [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=351929871 TSecr=3596798934 124 95.190821872 
+  192.168.43.170 → 151.101.122.49 TLSv1 625 Client Hello 125 95.270332453 151.101.122.49 → 
+  192.168.43.170 TCP 66 443 → 49416 [ACK] Seq=1 Ack=560 Win=67072 Len=0 TSval=3596798985 
+  TSecr=351929871 126 95.271329787 151.101.122.49 → 192.168.43.170 TLSv1.2 207 Server Hello, 
+  Change Cipher Spec, Encrypted Handshake Message 127 95.271428350 192.168.43.170 → 
+  151.101.122.49 TCP 66 49416 → 443 [ACK] Seq=560 Ack=142 Win=64128 Len=0 TSval=351929952 
+  TSecr=3596798987 128 95.271917647 192.168.43.170 → 151.101.122.49 TLSv1.2 117 Change 
+  Cipher Spec, Encrypted Handshake Message 129 95.359971094 151.101.122.49 → 192.168.43.170 
+  TCP 66 443 → 49416 [ACK] Seq=142 Ack=611 Win=67072 Len=0 TSval=3596799105 TSecr=351929953 
+  130 95.360101599 192.168.43.170 → 151.101.122.49 TLSv1.2 308 Application Data 131 
+  95.421128380 151.101.122.49 → 192.168.43.170 TCP 66 443 → 49416 [ACK] Seq=142 Ack=853 
+  Win=68096 Len=0 TSval=3596799162 TSecr=351930041 132 95.421455179 151.101.122.49 → 
+  192.168.43.170 TLSv1.2 363 Application Data 133 95.421950407 192.168.43.170 → 
+  151.101.122.49 TLSv1.2 97 Encrypted Alert 134 95.423697556 151.101.122.49 → 192.168.43.170 
+  TLSv1.2 97 Encrypted Alert 135 95.423744167 151.101.122.49 → 192.168.43.170 TCP 66 443 → 
+  49416 [FIN, ACK] Seq=470 Ack=853 Win=68096 Len=0 TSval=3596799162 TSecr=351930041 136 
+  95.423902562 192.168.43.170 → 151.101.122.49 TCP 66 49416 → 443 [FIN, ACK] Seq=884 Ack=471 
+  Win=64128 Len=0 TSval=351930105 TSecr=3596799162 137 95.476449458 151.101.122.49 → 
+  192.168.43.170 TCP 60 443 → 49416 [RST] Seq=471 Win=0 Len=0 138 96.194457921 
+  192.168.43.170 → 192.168.43.1 DNS 72 Standard query 0xe096 AAAA d3df8d986386 139 
+  96.266473342 192.168.43.1 → 192.168.43.170 DNS 72 Standard query response 0xe096 No such 
+  name AAAA d3df8d986386 140 96.284487521 192.168.43.170 → 192.168.43.1 DNS 72 Standard 
+  query 0x48ea AAAA d3df8d986386 141 96.288773216 192.168.43.1 → 192.168.43.170 DNS 72 
+  Standard query response 0x48ea No such name AAAA d3df8d986386 142 99.295327679 
+  192.168.43.170 → 151.80.211.8 NTP 90 NTP Version 4, client 143 99.349890829 151.80.211.8 → 
+  192.168.43.170 NTP 90 NTP Version 4, server 144 100.050925386 7e:89:56:17:89:30 → 
+  Broadcast ARP 60 Who has 192.168.43.170? Tell 192.168.43.1 145 100.050948295 
+  PcsCompu_c5:ec:00 → 7e:89:56:17:89:30 ARP 42 192.168.43.170 is at 08:00:27:c5:ec:00 146 
+  101.424352126 192.168.43.170 → 216.239.34.110 DNS 88 Standard query 0xf78e AAAA 
+  stackoverflow.com OPT 147 101.510941748 216.239.34.110 → 192.168.43.170 DNS 178 Standard 
+  query response 0xf78e AAAA stackoverflow.com SOA ns-cloud-e1.googledomains.com OPT 148 
+  102.288169473 192.168.43.170 → 192.33.14.30 DNS 74 Standard query 0x60cf A com OPT 149 
+  102.526300659 192.33.14.30 → 192.168.43.170 DNS 617 Standard query response 0x60cf A com 
+  SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT 150 102.526590662 192.168.43.170 → 
+  192.26.92.30 DNS 74 Standard query 0x82c1 A com OPT 151 102.669590965 192.26.92.30 → 
+  192.168.43.170 DNS 617 Standard query response 0x82c1 A com SOA a.gtld-servers.net RRSIG 
+  NSEC3 RRSIG OPT 152 108.002576197 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 
+  192.168.43.142? Tell 192.168.43.1 153 112.134157579 192.168.43.170 → 199.7.83.42 DNS 76 
+  Standard query 0xe44a A local OPT 154 112.269086624 199.7.83.42 → 192.168.43.170 DNS 1068 
+  Standard query response 0xe44a No such name A local SOA a.root-servers.net NSEC locker 
+  NSEC aaa RRSIG RRSIG RRSIG OPT 155 119.057093374 192.168.43.170 → 104.22.14.144 TCP 74 
+  42756 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1166596371 TSecr=0 
+  WS=128 156 119.113025982 104.22.14.144 → 192.168.43.170 TCP 66 443 → 42756 [SYN, ACK] 
+  Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM=1 WS=1024 157 119.113198576 192.168.43.170 
+  → 104.22.14.144 TCP 54 42756 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 158 119.113539735 
+  192.168.43.170 → 104.22.14.144 TLSv1 680 Client Hello 159 119.163034165 104.22.14.144 → 
+  192.168.43.170 TCP 60 443 → 42756 [ACK] Seq=1 Ack=627 Win=67584 Len=0 160 119.164099710 
+  104.22.14.144 → 192.168.43.170 TLSv1.3 273 Server Hello, Change Cipher Spec, Application 
+  Data 161 119.164156014 192.168.43.170 → 104.22.14.144 TCP 54 42756 → 443 [ACK] Seq=627 
+  Ack=220 Win=64128 Len=0 162 119.164566438 192.168.43.170 → 104.22.14.144 TLSv1.3 134 
+  Change Cipher Spec, Application Data 163 119.232860961 104.22.14.144 → 192.168.43.170 TCP 
+  60 443 → 42756 [ACK] Seq=220 Ack=707 Win=67584 Len=0 164 119.232968512 192.168.43.170 → 
+  104.22.14.144 TLSv1.3 298 Application Data 165 119.284654214 104.22.14.144 → 
+  192.168.43.170 TCP 60 443 → 42756 [ACK] Seq=220 Ack=951 Win=68608 Len=0 166 119.354007203 
+  104.22.14.144 → 192.168.43.170 TLSv1.3 1160 Application Data, Application Data 167 
+  119.354062608 104.22.14.144 → 192.168.43.170 TCP 60 443 → 42756 [FIN, ACK] Seq=1326 
+  Ack=951 Win=68608 Len=0 168 119.354126112 192.168.43.170 → 104.22.14.144 TCP 54 42756 → 
+  443 [ACK] Seq=951 Ack=1327 Win=64128 Len=0 169 119.356708902 192.168.43.170 → 
+  104.22.14.144 TLSv1.3 78 Application Data 170 119.356960199 192.168.43.170 → 104.22.14.144 
+  TCP 54 42756 → 443 [FIN, ACK] Seq=975 Ack=1327 Win=64128 Len=0 171 119.393450140 
+  104.22.14.144 → 192.168.43.170 TCP 66 [TCP Dup ACK 165#1] 443 → 42756 [ACK] Seq=1327 
+  Ack=951 Win=68608 Len=0 SLE=975 SRE=976 172 119.393515334 104.22.14.144 → 192.168.43.170 
+  TCP 66 443 → 42756 [ACK] Seq=1327 Ack=976 Win=68608 Len=0 SLE=975 SRE=976 173 
+  132.847348033 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 192.168.43.142? Tell 
+  192.168.43.1 174 138.478236484 192.168.43.170 → 23.235.36.32 DNS 88 Standard query 0x53e2 
+  A global.fastly.net OPT 175 138.478345384 192.168.43.170 → 23.235.32.32 DNS 85 Standard 
+  query 0x4612 AAAA ns2.fastly.net OPT 176 138.478420588 192.168.43.170 → 23.235.32.32 DNS 
+  85 Standard query 0x2120 AAAA ns3.fastly.net OPT 177 138.478492771 192.168.43.170 → 
+  23.235.32.32 DNS 85 Standard query 0x64bb AAAA ns4.fastly.net OPT 178 138.479071695 
+  192.168.43.170 → 104.156.84.32 DNS 85 Standard query 0x95ac AAAA ns1.fastly.net OPT 179 
+  138.479882395 192.168.43.170 → 104.156.80.32 DNS 88 Standard query 0x92bc A 
+  global.fastly.net OPT 180 138.517931390 23.235.36.32 → 192.168.43.170 DNS 176 Standard 
+  query response 0x53e2 A global.fastly.net A 151.101.120.179 NS ns1.fastly.net NS 
+  ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 181 138.518139473 23.235.32.32 → 
+  192.168.43.170 DNS 146 Standard query response 0x2120 AAAA ns3.fastly.net SOA 
+  ns1.fastly.net OPT 182 138.518285441 192.168.43.170 → 104.156.80.32 DNS 95 Standard query 
+  0x4f65 A shared.global.fastly.net OPT 183 138.518500973 23.235.32.32 → 192.168.43.170 DNS 
+  146 Standard query response 0x4612 AAAA ns2.fastly.net SOA ns1.fastly.net OPT 184 
+  138.518518262 23.235.32.32 → 192.168.43.170 DNS 146 Standard query response 0x64bb AAAA 
+  ns4.fastly.net SOA ns1.fastly.net OPT 185 138.524796607 104.156.80.32 → 192.168.43.170 DNS 
+  176 Standard query response 0x92bc A global.fastly.net A 151.101.120.179 NS ns1.fastly.net 
+  NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 186 138.524988952 192.168.43.170 
+  → 23.235.36.32 DNS 95 Standard query 0x1d85 A shared.global.fastly.net OPT 187 
+  138.525459843 104.156.84.32 → 192.168.43.170 DNS 142 Standard query response 0x95ac AAAA 
+  ns1.fastly.net SOA ns1.fastly.net OPT 188 138.557286902 104.156.80.32 → 192.168.43.170 DNS 
+  156 Standard query response 0x4f65 A shared.global.fastly.net SOA ns1.fastly.net OPT 189 
+  138.557546020 192.168.43.170 → 23.235.32.32 DNS 98 Standard query 0x90a8 A 
+  p2.shared.global.fastly.net OPT 190 138.558223777 23.235.36.32 → 192.168.43.170 DNS 156 
+  Standard query response 0x1d85 A shared.global.fastly.net SOA ns1.fastly.net OPT 191 
+  138.558375104 192.168.43.170 → 23.235.36.32 DNS 98 Standard query 0x4f7c A 
+  p2.shared.global.fastly.net OPT 192 138.591339451 23.235.32.32 → 192.168.43.170 DNS 186 
+  Standard query response 0x90a8 A p2.shared.global.fastly.net A 151.101.122.49 NS 
+  ns1.fastly.net NS ns2.fastly.net NS ns3.fastly.net NS ns4.fastly.net OPT 193 138.631894132 
+  23.235.36.32 → 192.168.43.170 DNS 186 Standard query response 0x4f7c A 
+  p2.shared.global.fastly.net A 151.101.122.49 NS ns1.fastly.net NS ns2.fastly.net NS 
+  ns3.fastly.net NS ns4.fastly.net OPT 194 138.632174739 192.168.43.170 → 23.235.32.32 DNS 
+  98 Standard query 0x0afb AAAA p2.shared.global.fastly.net OPT 195 138.669797133 
+  23.235.32.32 → 192.168.43.170 DNS 159 Standard query response 0x0afb AAAA 
+  p2.shared.global.fastly.net SOA ns1.fastly.net OPT 196 138.670335769 192.168.43.170 → 
+  151.101.122.49 TCP 74 49562 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 
+  TSval=351973354 TSecr=0 WS=128 197 138.711732237 151.101.122.49 → 192.168.43.170 TCP 74 
+  443 → 49562 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM=1 TSval=793337381 
+  TSecr=351973354 WS=512 198 138.711854827 192.168.43.170 → 151.101.122.49 TCP 66 49562 → 
+  443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=351973396 TSecr=793337381 199 138.711940820 
+  192.168.43.170 → 151.101.122.49 TLSv1 625 Client Hello 200 138.765794552 151.101.122.49 → 
+  192.168.43.170 TCP 66 443 → 49562 [ACK] Seq=1 Ack=560 Win=67072 Len=0 TSval=793337440 
+  TSecr=351973396 201 138.766282403 151.101.122.49 → 192.168.43.170 TLSv1.2 207 Server 
+  Hello, Change Cipher Spec, Encrypted Handshake Message 202 138.766340119 192.168.43.170 → 
+  151.101.122.49 TCP 66 49562 → 443 [ACK] Seq=560 Ack=142 Win=64128 Len=0 TSval=351973450 
+  TSecr=793337441 203 138.766635384 192.168.43.170 → 151.101.122.49 TLSv1.2 117 Change 
+  Cipher Spec, Encrypted Handshake Message 204 138.871857676 151.101.122.49 → 192.168.43.170 
+  TCP 66 443 → 49562 [ACK] Seq=142 Ack=611 Win=67072 Len=0 TSval=793337526 TSecr=351973451 
+  205 138.871963987 192.168.43.170 → 151.101.122.49 TLSv1.2 308 Application Data 206 
+  138.913536730 151.101.122.49 → 192.168.43.170 TCP 66 443 → 49562 [ACK] Seq=142 Ack=853 
+  Win=68096 Len=0 TSval=793337589 TSecr=351973556 207 138.914206756 151.101.122.49 → 
+  192.168.43.170 TLSv1.2 363 Application Data 208 138.914515381 192.168.43.170 → 
+  151.101.122.49 TLSv1.2 97 Encrypted Alert 209 138.914741208 151.101.122.49 → 
+  192.168.43.170 TLSv1.2 97 Encrypted Alert 210 138.914759226 151.101.122.49 → 
+  192.168.43.170 TCP 66 443 → 49562 [FIN, ACK] Seq=470 Ack=853 Win=68096 Len=0 
+  TSval=793337589 TSecr=351973556 211 138.914860538 192.168.43.170 → 151.101.122.49 TCP 66 
+  49562 → 443 [FIN, ACK] Seq=884 Ack=471 Win=64128 Len=0 TSval=351973599 TSecr=793337589 212 
+  138.956771984 151.101.122.49 → 192.168.43.170 TCP 60 443 → 49562 [RST] Seq=471 Win=0 Len=0 
+  213 143.518078816 7e:89:56:17:89:30 → Broadcast ARP 60 Who has 192.168.43.170? Tell 
+  192.168.43.1 214 143.518100005 PcsCompu_c5:ec:00 → 7e:89:56:17:89:30 ARP 42 192.168.43.170 
+  is at 08:00:27:c5:ec:00
